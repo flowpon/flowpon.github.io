@@ -2,10 +2,12 @@
 
 勉強用の自作ホームページ
 
-branchを切りましょう
+branchを切りましょう．
 
-branch名は考えましょう
+branch名は考えましょう．
 
-PRを作りましょう
+PRを作りましょう．
 
-approveをもらいましょう
+approveをもらいましょう．
+
+Mergeしましょう．
