@@ -1,13 +1,13 @@
 # flowpon.github.io
 
-勉強用の自作ホームページ
+[勉強用の自作ホームページ](https://flowpon.github.io/)
 
-branchを切りましょう．
+## 開発の方法
 
-branch名は考えましょう．
+まずbranchを切りましょう．（このときのbranch名は実装内容を基に決めましょう）
 
-PRを作りましょう．
+PRを作りましょう．（PRには実装内容と，見てほしいところがあれば書きましょう）
 
-approveをもらいましょう．
+reviewerを設定してapproveをもらいましょう．
 
-Mergeしましょう．
+最後にMergeをしましょう．
