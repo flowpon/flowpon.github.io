@@ -44,6 +44,22 @@ const json = `
       {
         "name": "アニメーション：ふよふよ動く見出し",
         "link": "animation/index5.html"
+      },
+      {
+        "name": "アニメーション２：複数の画像を表示させる",
+        "link": "animation2/index.html"
+      },
+      {
+        "name": "アニメーション２：複数の画像を回転させる",
+        "link": "animation2/index2.html"
+      },
+      {
+        "name": "アニメーション２：複数の画像がふわふわ落ちてくる",
+        "link": "animation2/index3.html"
+      },
+      {
+        "name": "アニメーション２：ぼかしがなくなりくっきりと画像を表示",
+        "link": "animation2/index4.html"
       }
   ]
 }
