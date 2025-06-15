@@ -6,5 +6,8 @@ title: ホーム
 <!-- ここにHTMLを直接書いてもOK。もとの index.html の中身をここに入れる -->
 <div id="home" class="page">
     <h2>Welcome to My page😊</h2>
+    <p>ゆったりマイペースに、毎日を大切にしながら、<br>
+    ふだんの私をそのまま詰めこんだ、小さなページです🌼<br>
+    見に来てくれて、ありがとう</p>
     <img src="{{ '/assets/images/Picsart_25-03.jpg' | relative_url }}" alt="ちびしなの" />
 </div>
