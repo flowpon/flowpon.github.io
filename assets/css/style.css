@@ -47,11 +47,6 @@ header {
   line-height: 1.2;
 }
 
-/* .logo img { */
-/* height: 3rem; 固定サイズに変更 */
-/* width: auto; */
-/* } */
-
 /* ナビゲーション */
 nav {
   font-family: "Playwrite AU SA", serif;
@@ -114,15 +109,29 @@ main {
   margin-bottom: 30px;
 }
 .page p {
-  font-family: "Hachi Maru Pop", cursive;
+  font-family: "Zen Maru Gothic", sans-serif;
   margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 2;
 }
+
 .page img {
   display: block;
   margin: 0 auto;
   width: 100%;
   max-width: 500px;
   height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
