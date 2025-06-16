@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 320px; /* 最小幅を設定 */
+  scroll-behavior: smooth; /* 追加: よりスムーズなスクロール */
 }
 
 /* ヘッダー */
@@ -110,14 +111,14 @@ main {
 }
 .page p {
   font-family: "Zen Maru Gothic", sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 2;
 }
 
 .page img {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 100%;
   max-width: 500px;
   height: auto;
@@ -127,7 +128,7 @@ main {
 
 #about img {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 100%;
   max-width: 250px;
   height: auto;
@@ -174,6 +175,12 @@ footer {
   .page {
     padding: 30px 15px;
   }
+
+  .page p {
+    max-width: 700px; /* タブレットでの幅を調整 */
+    padding: 0 15px;
+    margin-bottom: 25px; /* タブレットでも段落間を広げる */
+  }
 }
 
 /* スマホ用（600px以下） */
@@ -212,6 +219,12 @@ footer {
     padding: 15px;
   }
 
+  .page p {
+    max-width: 100%; /* スマホでは画面幅に合わせる */
+    padding: 0 10px;
+    margin-bottom: 20px; /* スマホでも段落間を広げる */
+  }
+
   main {
     padding: 0 10px;
   }
@@ -242,5 +255,9 @@ footer {
 
   .page h2 {
     font-size: 1.3rem;
+  }
+
+  .page p {
+    padding: 0 5px; /* 極小画面での左右パディング */
   }
 }
