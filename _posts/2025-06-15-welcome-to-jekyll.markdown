@@ -2,9 +2,9 @@
 layout: post
 title: "test"
 date: 2025-06-15
-image:
+image: https://i.postimg.cc/Z5P84QDk/cat.png
 ---
 
-テストだよ。
+![テスト](https://i.postimg.cc/Z5P84QDk/cat.png)
 
-<!-- ![](/assets/images/nail.jpg) -->
+テストだよ。
