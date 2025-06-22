@@ -11,7 +11,7 @@ layout: default
     <span class="share-label">Share it!:</span>
     <!-- X（旧Twitter）シェア -->
     <a
-      href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url }}"
+      href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
       target="_blank"
       rel="noopener noreferrer"
       title="Xでシェア"
