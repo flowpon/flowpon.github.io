@@ -127,10 +127,11 @@ main {
 .blog-item {
   background-color: #fff0f5;
   border-radius: 12px;
-  padding: 20px 25px;
+  padding: 20px;
   margin-bottom: 25px;
   box-shadow: 0 4px 6px rgba(214, 51, 108, 0.1);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  transition: 0.3s ease;
+  text-align: center;
 }
 
 .blog-item a {
@@ -150,11 +151,12 @@ main {
   font-size: 0.9rem;
 }
 
-.blog-thumb {
-  max-width: 50px;
+.thumb-img {
+  max-width: 120px;
+  width: 100%;
   height: auto;
-  display: inline-block;
-  vertical-align: middle;
+  margin: 0 auto 15px;
+  display: block;
 }
 
 .blog-excerpt {
