@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="blog-post">
+  <h1>{{ page.title }}</h1>
+  <p class="post-data">{{ page.date | date: "%-m/%-d/%Y %-H:%M" }}</p>
+  <div class="post-content">{{ content }}</div>
+
+  <div class="share-buttons">
+    <span class="share-label">Share it!:</span>
+    <!-- X（旧Twitter）シェア -->
+    <a
+      href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Xでシェア"
+      class="share-icon"
+    >
+      <img
+        src="{{ '/assets/images/icons/x.png' | relative_url }}"
+        alt="X (Twitter) アイコン"
+      />
+    </a>
+    <!-- URLコピー -->
+    <button
+      onclick="copyUrl()"
+      class="share-icon copy-link"
+      title="URLをコピー"
+      aria-label="URLをコピー"
+    >
+      <img
+        src="{{ '/assets/images/icons/link.png' | relative_url }}"
+        alt="リンクコピーアイコン"
+      />
+    </button>
+  </div>
+  <script src="{{ '/assets/js/share.js' | relative_url }}"></script>
+</article>
+<p class="back-line"><a href="/blog">ブログ一覧に戻る</a></p>
