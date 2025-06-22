@@ -1,8 +1,0 @@
----
-layout: post
-title: "test!"
-date: 2025-06-16 09:11:02 +0900
----
-
-test だよ 📱
-[![Gtotu-FJa8-AABZCh.jpg](https://i.postimg.cc/BQwRcHN2/Gtotu-FJa8-AABZCh.jpg)](https://postimg.cc/GHGMbBWp)
