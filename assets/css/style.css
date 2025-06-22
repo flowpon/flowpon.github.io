@@ -1,11 +1,14 @@
 /* 全体のスタイル */
+html {
+  min-width: 320px; /* 最小幅を設定 */
+}
+
 body {
   background-color: #ffe5e5;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  min-width: 320px; /* 最小幅を設定 */
   scroll-behavior: smooth; /* 追加: よりスムーズなスクロール */
 }
 
@@ -71,7 +74,6 @@ nav ul {
 nav li {
   list-style-type: none;
   font-size: 1.5rem; /* 固定サイズに変更 */
-  text-align: center;
 }
 
 nav a {
@@ -116,16 +118,6 @@ main {
   line-height: 2;
 }
 
-.page img {
-  display: block;
-  margin: 20px auto;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .blog-list {
   max-width: 900px; /* 最大幅を調整 */
   margin: 0 auto; /* 中央寄せ */
@@ -133,17 +125,11 @@ main {
 }
 
 .blog-item {
-  border-bottom: 1px solid #ffc1c1;
-  padding-bottom: 30px;
-  margin-bottom: 40px;
-}
-
-.blog-item {
-  background-color: #fff0f5; /* 薄いピンク系の背景色 */
-  border-radius: 12px; /* 角丸 */
+  background-color: #fff0f5;
+  border-radius: 12px;
   padding: 20px 25px;
   margin-bottom: 25px;
-  box-shadow: 0 4px 6px rgba(214, 51, 108, 0.1); /* ほんのり影を付ける */
+  box-shadow: 0 4px 6px rgba(214, 51, 108, 0.1);
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -160,8 +146,15 @@ main {
 }
 
 .blog-item .post-date {
-  color: #888;
+  color: inherit;
   font-size: 0.9rem;
+}
+
+.blog-thumb {
+  max-width: 150px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .blog-excerpt {
@@ -169,6 +162,14 @@ main {
   font-size: 1rem;
   color: #444;
   margin-top: 10px;
+}
+
+.post-content img {
+  max-width: 170px;
+  height: auto;
+  display: inline-block;
+  margin: 1em 1em 1em 0;
+  vertical-align: middle; /* 文章の高さと揃える */
 }
 
 /* ブログ詳細ページ */
@@ -195,9 +196,8 @@ main {
 }
 
 .post-content a {
-  display: inline;
-  text-align: left;
-  width: 100%;
+  text-decoration: underline;
+  color: #d6336c;
 }
 
 .post-content {
@@ -275,9 +275,38 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#contact .sns-container {
+  font-family: "Zen Maru Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 32px; /* アイコン間の余白を少し広げる */
+}
+
+#contact .sns-item {
+  text-align: center;
+  font-size: 16px; /* テキストサイズを大きく */
+  color: inherit;
+  display: inline-block;
+}
+
+#contact .sns-item p {
+  margin-bottom: 6px; /* テキストとアイコンの間隔を少し広げる */
+}
+
+#contact .share-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  display: inline-block;
+}
+
 #contact .share-icon img {
-  width: 40px; /* お好みの幅に調整 */
-  height: auto; /* 高さは自動調整 */
+  width: 48px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: none; /* ← 画像に影がついていた場合も無効化 */
 }
 
 /* フッター */

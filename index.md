@@ -11,5 +11,4 @@ title: ホーム
         小さなページ🌼
     </p>
     <p>見に来てくれて、ありがとう</p>
-    <img src="{{ '/assets/images/Picsart_25-03.jpg' | relative_url }}" alt="ちびしなの" />
 </div>
