@@ -132,6 +132,9 @@ main {
   box-shadow: 0 4px 6px rgba(214, 51, 108, 0.1);
   transition: 0.3s ease;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog-item a {
@@ -397,6 +400,11 @@ footer {
     max-width: 100%; /* スマホでは画面幅に合わせる */
     padding: 0 10px;
     margin-bottom: 20px; /* スマホでも段落間を広げる */
+  }
+
+  .thumb-img {
+    max-width: 100px;
+    width: auto;
   }
 
   main {
