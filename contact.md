@@ -36,5 +36,19 @@ permalink: /contact
       </a>
     </div>
   </div>
+  <div class="sns-item">
+    <p>GitHub</p>
+    <a
+      href="https://github.com/flowpon"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="GitHubプロフィール"
+      class="share-icon">
+      <img
+        src="{{ '/assets/images/icons/github.png' | relative_url }}"
+        alt="GitHub アイコン"
+      />
+    </a>
+  </div>
 
 </div>
