@@ -314,6 +314,13 @@ main {
   box-shadow: none; /* ← 画像に影がついていた場合も無効化 */
 }
 
+iframe {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 8px;
+}
+
 /* フッター */
 footer {
   display: flex;

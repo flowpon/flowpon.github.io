@@ -24,3 +24,5 @@ image: https://i.postimg.cc/hPKgRgnL/Time-Heals.png
 「明日はもうちょっと、だいじょうぶかも」って思いたいな 🌈✨
 
 ![TimeHeals](https://i.postimg.cc/hPKgRgnL/Time-Heals.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YjR1SGUR9UU?si=NxtrXWHRTC0maix1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
