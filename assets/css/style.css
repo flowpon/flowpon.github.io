@@ -170,10 +170,10 @@ main {
 }
 
 .post-content img {
-  max-width: 170px;
+  max-width: 230px;
   height: auto;
   display: inline-block;
-  margin: 1em 1em 1em 0;
+  margin: 1em 1.2em 1em 0;
   vertical-align: middle; /* 文章の高さと揃える */
 }
 
@@ -206,10 +206,15 @@ main {
 }
 
 .post-content {
-  font-size: 1.1rem;
-  color: #333;
+  font-size: 1.2rem;
   line-height: 2;
   margin-bottom: 30px;
+}
+
+.post-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5em; /* 段落間の空白 */
+  /* color: #666; */
 }
 
 .share-buttons {
