@@ -320,10 +320,11 @@ main {
 }
 
 iframe {
-  max-width: 100%;
-  height: auto;
+  width: 75%;
+  aspect-ratio: 16 / 9;
   border: none;
   border-radius: 8px;
+  display: block;
 }
 
 /* フッター */
