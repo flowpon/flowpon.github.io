@@ -316,11 +316,11 @@ main {
   height: auto;
   display: block;
   margin: 0 auto;
-  box-shadow: none; /* ← 画像に影がついていた場合も無効化 */
+  box-shadow: none;
 }
 
 iframe {
-  width: 75%;
+  width: 80%;
   aspect-ratio: 16 / 9;
   border: none;
   border-radius: 8px;
