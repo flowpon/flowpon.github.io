@@ -7,8 +7,6 @@ image: https://i.postimg.cc/XJVdgW0F/summergirl.png
 
 <iframe src="https://www.youtube.com/embed/QGJuMBdaqIw?si=OnfmAwr2iaqIytgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![夏の始まり](https://i.postimg.cc/XJVdgW0F/summergirl.png)
-
 🌤️ 朝、窓の外から  
 どこかからジジジ…とセミの声が聞こえてきた
 
@@ -35,3 +33,6 @@ image: https://i.postimg.cc/XJVdgW0F/summergirl.png
 セミの声は、合図みたいだった  
 「きみの夏が、いま始まるよ」って🌻  
 自分を守りながら過ごしていこう
+
+![夏の始まり](https://i.postimg.cc/XJVdgW0F/summergirl.png)
+
