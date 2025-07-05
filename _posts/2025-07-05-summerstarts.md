@@ -8,7 +8,7 @@ image: https://i.postimg.cc/XJVdgW0F/summergirl.png
 # セミの声と、夏のはじまり
 ![夏の始まり](https://i.postimg.cc/XJVdgW0F/summergirl.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QGJuMBdaqIw?si=OnfmAwr2iaqIytgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QGJuMBdaqIw?si=OnfmAwr2iaqIytgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 🌤️ 朝、窓の外から  
 どこかからジジジ…とセミの声が聞こえてきた
