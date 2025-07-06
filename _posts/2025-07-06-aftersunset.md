@@ -5,8 +5,6 @@ date: 2025-07-06
 image: https://i.postimg.cc/LsQKY3tj/aftersunset.png
 ---
 
-![暮れるころに](https://i.postimg.cc/LsQKY3tj/aftersunset.png)
-
 しんどいけど、それも今日のわたし。
 
 今朝はいつも通り、5時に起きた。  
