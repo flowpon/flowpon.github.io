@@ -2,10 +2,10 @@
 layout: post
 title: "暮れるころにようやく"
 date: 2025-07-06
-image: https://i.postimg.cc/xj4DT5fQ/aftersunset.png
+image: https://i.postimg.cc/LsQKY3tj/aftersunset.png
 ---
 
-![暮れるころに](https://i.postimg.cc/xj4DT5fQ/aftersunset.png)
+![暮れるころに](https://i.postimg.cc/LsQKY3tj/aftersunset.png)
 
 しんどいけど、それも今日のわたし。
 
