@@ -40,7 +40,24 @@
 
   <body>
     {% include header.html %}
+
+    <div class="gtranslate_wrapper"></div>
+    <script>
+      window.gtranslateSettings = {
+        default_language: "ja",
+        languages: ["ja", "en", "ko"],
+        wrapper_selector: ".gtranslate_wrapper",
+        flag_size: 24,
+        alt_flags: { en: "usa" },
+      };
+    </script>
+    <script
+      src="https://cdn.gtranslate.net/widgets/latest/flags.js"
+      defer
+    ></script>
+
     <main id="content">{{ content }}</main>
+
     {% include footer.html %}
   </body>
 </html>
