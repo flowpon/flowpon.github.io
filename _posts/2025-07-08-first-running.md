@@ -2,7 +2,6 @@
 layout: post
 title: "むくみとさよなら🏃‍♀️"
 date: 2025-07-08
-image: https://i.postimg.cc/13fbjFtP/1.png
 ---
 
 こんにちは 🌷
