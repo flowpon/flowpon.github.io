@@ -204,15 +204,19 @@ main {
   margin-bottom: 20px;
 }
 
+.post-content {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
 .post-content a {
   text-decoration: underline;
   color: #d6336c;
 }
 
-.post-content {
-  font-size: 1.2rem;
-  line-height: 2;
-  margin-bottom: 30px;
+.post-content strong {
+  font-weight: bold;
 }
 
 .post-content p {
