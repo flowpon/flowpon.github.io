@@ -8,16 +8,16 @@
   </div>
   <nav>
     <ul>
-      <li>
+      <li class="{% if page.url == '/' %}active{% endif %}">
         <a href="/">Home</a>
       </li>
-      <li>
+      <li class="{% if page.url contains '/blog' %}active{% endif %}">
         <a href="/blog">Blog</a>
       </li>
-      <li>
+      <li class="{% if page.url contains '/about' %}active{% endif %}">
         <a href="/about">About</a>
       </li>
-      <li>
+      <li class="{% if page.url contains '/contact' %}active{% endif %}">
         <a href="/contact">Contact</a>
       </li>
     </ul>

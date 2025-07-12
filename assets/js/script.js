@@ -12,7 +12,19 @@ function showPage(pageId) {
   }
 }
 
-// 初期表示はホームページ
 document.addEventListener("DOMContentLoaded", () => {
-  showPage("home");
+  document.querySelectorAll(".toggle-header").forEach((header) => {
+    header.addEventListener("click", () => {
+      const targetId = header.getAttribute("data-target");
+      const content = document.getElementById(targetId);
+      if (content) {
+        content.classList.toggle("hidden");
+        header.classList.toggle("open");
+        const icon = header.querySelector(".toggle-icon");
+        if (icon) {
+          icon.textContent = content.classList.contains("hidden") ? "▶" : "▼";
+        }
+      }
+    });
+  });
 });

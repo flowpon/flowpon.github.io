@@ -4,7 +4,7 @@ permalink: /contact
 ---
 
 <div id="contact" class="page">
-  <h2>Contact👀</h2>
+  <h1>Contact👀</h1>
 
   <div class="sns-container">
     <div class="sns-item">
@@ -17,7 +17,7 @@ permalink: /contact
         class="share-icon">
         <img
           src="{{ '/assets/images/icons/camera.png' | relative_url }}"
-          alt="Instagram アイコン"
+          alt="Instagramのプロフィールページへのリンク"
         />
       </a> 
     </div>
@@ -31,24 +31,23 @@ permalink: /contact
         class="share-icon">
         <img
           src="{{ '/assets/images/icons/x.png' | relative_url }}"
-          alt="X アイコン"
+          alt="Xのプロフィールページへのリンク"
+        />
+      </a>
+    </div>
+    <div class="sns-item">
+      <p>GitHub</p>
+      <a
+        href="https://github.com/flowpon"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="GitHubプロフィール"
+        class="share-icon">
+        <img
+          src="{{ '/assets/images/icons/github.png' | relative_url }}"
+          alt="GitHubへのリンク"
         />
       </a>
     </div>
   </div>
-  <div class="sns-item">
-    <p>GitHub</p>
-    <a
-      href="https://github.com/flowpon"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="GitHubプロフィール"
-      class="share-icon">
-      <img
-        src="{{ '/assets/images/icons/github.png' | relative_url }}"
-        alt="GitHub アイコン"
-      />
-    </a>
-  </div>
-
 </div>

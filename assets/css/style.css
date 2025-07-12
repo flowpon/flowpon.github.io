@@ -23,6 +23,7 @@ header {
 
 .header_container {
   background-color: rgb(255, 151, 168);
+  color: white;
   padding: 30px 15px; /* 左右のパディングを調整 */
   margin-bottom: 5.5px;
   width: 100%;
@@ -90,8 +91,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff5252;
-  background-color: rgba(255, 255, 255, 0.3);
+  color: #c74370;
+}
+
+nav li.active a {
+  color: #c74370;
 }
 
 /* メインコンテンツ */
@@ -103,23 +107,35 @@ main {
   box-sizing: border-box;
 }
 
+hr {
+  display: none;
+}
 /* ページ要素 */
 .page {
   text-align: center;
   padding: 40px 20px;
 }
 
-.page h2 {
+.page h1 {
   font-family: "Playwrite AU SA", serif;
-  font-size: 1.5rem; /* 固定サイズに変更 */
+  font-size: 2rem; /* 固定サイズに変更 */
   padding: 20px;
   margin-bottom: 30px;
 }
+
+.page h2 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.8rem;
+  padding: 15px;
+}
+
 .page p {
   font-family: "Zen Maru Gothic", sans-serif;
-  margin-bottom: 30px;
-  font-size: 16px;
-  line-height: 2;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 .blog-list {
@@ -168,7 +184,10 @@ main {
 
 .blog-excerpt {
   font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 4.2em;
+  overflow: hidden;
   color: #444;
   margin-top: 10px;
 }
@@ -180,7 +199,62 @@ main {
   margin: 1em 1.2em 1em 0;
   vertical-align: middle; /* 文章の高さと揃える */
 }
+/* 月・年のトグル */
+.toggle-header {
+  cursor: pointer;
+  background-color: #ffe4ec;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px auto 10px;
+  font-size: 1.5rem;
+  font-family: "Zen Maru Gothic", sans-serif;
+  max-width: 700px;
+  color: #e95a8a;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+  transition: background-color 0.3s, color 0.3s;
+}
 
+.toggle-header.open {
+  background-color: #fdd0dd;
+  color: #c74370;
+}
+
+.toggle-icon {
+  margin-left: 0.5em;
+}
+
+/* 開閉されるグループ */
+.year-group,
+.month-group {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.month-group.hidden,
+.year-group.hidden {
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.month-group {
+  margin-bottom: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* ブログ詳細ページ */
 .blog-post {
   max-width: 800px;
@@ -188,7 +262,7 @@ main {
   padding: 20px;
   background-color: #fff0f5;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
   font-family: "Zen Maru Gothic", sans-serif;
 }
 
@@ -278,8 +352,7 @@ main {
 }
 
 .back-line a:hover {
-  background-color: #ffc1c1;
-  color: white;
+  background-color: #ffe4ec;
 }
 
 #about img {
@@ -290,21 +363,25 @@ main {
   height: auto;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
 }
 
-#contact .sns-container {
-  font-family: "Zen Maru Gothic", sans-serif;
+.sns-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   justify-content: center;
-  gap: 32px; /* アイコン間の余白を少し広げる */
+  margin-top: 1rem;
 }
 
-#contact .sns-item {
+.sns-item {
   text-align: center;
-  font-size: 16px; /* テキストサイズを大きく */
-  color: inherit;
-  display: inline-block;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+  background-color: #ffe4ec;
+  width: 140px;
+  transition: transform 0.2s ease;
 }
 
 #contact .sns-item p {
@@ -319,12 +396,9 @@ main {
   display: inline-block;
 }
 
-#contact .share-icon img {
-  width: 48px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  box-shadow: none;
+.share-icon img {
+  width: 40px;
+  height: 40px;
 }
 
 iframe {
@@ -419,13 +493,12 @@ footer {
 
   .page h2 {
     font-size: 1.5rem;
-    padding: 15px;
   }
 
   .page p {
-    max-width: 100%; /* スマホでは画面幅に合わせる */
+    max-width: 100%;
     padding: 0 10px;
-    margin-bottom: 20px; /* スマホでも段落間を広げる */
+    margin-bottom: 20px;
   }
 
   .thumb-img {
