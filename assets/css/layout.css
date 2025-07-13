@@ -36,6 +36,11 @@ nav li {
   font-size: 1.5rem; /* 固定サイズに変更 */
 }
 
+nav li.active a {
+  color: #c74370;
+  border-radius: 6px;
+}
+
 nav a,
 nav a:link,
 nav a:visited {
