@@ -17,6 +17,11 @@
     font-size: 1.1rem;
   }
 
+  nav li.active a {
+    color: #c74370;
+    border-radius: 6px;
+  }
+
   .page h2 {
     font-size: 1.8rem;
   }
@@ -56,6 +61,11 @@
 
   nav li {
     font-size: 1rem;
+  }
+
+  nav li.active a {
+    color: #c74370;
+    border-radius: 6px;
   }
 
   .page {
@@ -106,6 +116,11 @@
 
   nav li {
     font-size: 0.9rem;
+  }
+
+  nav li.active a {
+    color: #c74370;
+    border-radius: 6px;
   }
 
   .page h2 {
