@@ -1,0 +1,134 @@
+/* メディアクエリとアニメーション */
+
+@media screen and (max-width: 768px) {
+  .logo h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo img {
+    height: 2.5rem;
+  }
+
+  nav ul {
+    gap: 30px;
+  }
+
+  nav li {
+    font-size: 1.1rem;
+  }
+
+  .page h2 {
+    font-size: 1.8rem;
+  }
+
+  .page {
+    padding: 30px 15px;
+  }
+
+  .page p {
+    max-width: 700px; /* タブレットでの幅を調整 */
+    padding: 0 15px;
+    margin-bottom: 25px; /* タブレットでも段落間を広げる */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_container {
+    padding: 20px 10px;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    height: 2rem;
+  }
+
+  nav {
+    padding: 15px 10px;
+  }
+
+  nav ul {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    font-size: 1rem;
+  }
+
+  .page {
+    padding: 20px 10px;
+  }
+
+  .page h2 {
+    font-size: 1.5rem;
+  }
+
+  .page p {
+    max-width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .thumb-img {
+    max-width: 100px;
+    width: auto;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  .gtranslate_wrapper {
+    margin: 15px 20px;
+  }
+
+  footer {
+    padding: 30px 10px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo img {
+    height: 1.5rem;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  nav li {
+    font-size: 0.9rem;
+  }
+
+  .page h2 {
+    font-size: 1.3rem;
+  }
+
+  .page p {
+    padding: 0 5px; /* 極小画面での左右パディング */
+  }
+
+  .gtranslate_wrapper {
+    margin: 10px 10px; /* さらに左右余白を狭く */
+  }
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

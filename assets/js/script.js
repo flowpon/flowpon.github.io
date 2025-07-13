@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         header.classList.toggle("open");
         const icon = header.querySelector(".toggle-icon");
         if (icon) {
-          icon.textContent = content.classList.contains("hidden") ? "▶" : "▼";
+          icon.textContent = content.classList.contains("hidden") ? "▼" : "▲";
         }
       }
     });

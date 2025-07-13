@@ -1,0 +1,147 @@
+/* 再利用できる部品的なスタイル */
+
+.logo {
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.blog-item {
+  background-color: #fff0f5;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(214, 51, 108, 0.1);
+  transition: 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-item a {
+  text-decoration: none;
+  color: #333;
+  display: block; /* ブロック要素にして全体クリック可能に */
+}
+
+.blog-item h3 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.blog-item h4 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.blog-item .post-date {
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.thumb-img {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.blog-excerpt {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 4.2em;
+  overflow: hidden;
+  color: #444;
+  margin-top: 10px;
+}
+
+.post-content img {
+  max-width: 230px;
+  height: auto;
+  display: inline-block;
+  margin: 1em 1.2em 1em 0;
+  vertical-align: middle; /* 文章の高さと揃える */
+}
+
+.toggle-header {
+  cursor: pointer;
+  background-color: #ffe4ec;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px auto 10px;
+  font-size: 1.5rem;
+  font-family: "Zen Maru Gothic", sans-serif;
+  max-width: 700px;
+  color: #e95a8a;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-header.open {
+  background-color: #fdd0dd;
+  color: #c74370;
+}
+
+.toggle-icon {
+  margin-left: 0.5em;
+}
+
+.year-group,
+.month-group {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.month-group.hidden,
+.year-group.hidden {
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.month-group {
+  margin-bottom: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+.sns-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sns-item {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+  background-color: #ffe4ec;
+  width: 140px;
+  transition: transform 0.2s ease;
+}
+
+#contact .sns-item p {
+  margin-bottom: 6px; /* テキストとアイコンの間隔を少し広げる */
+}
+
+#contact .share-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  display: inline-block;
+}
+
+.share-icon img {
+  width: 40px;
+  height: 40px;
+}

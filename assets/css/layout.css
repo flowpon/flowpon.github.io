@@ -1,0 +1,80 @@
+/* レイアウト構造、構造的要素 */
+
+header {
+  text-align: center;
+}
+
+.header_container {
+  background-color: rgb(255, 151, 168);
+  color: white;
+  padding: 30px 15px; /* 左右のパディングを調整 */
+  margin-bottom: 5.5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: "Playwrite AU SA", serif;
+  background-color: #ffc1c1;
+  padding: 20px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav li {
+  list-style-type: none;
+  font-size: 1.5rem; /* 固定サイズに変更 */
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color: #c74370;
+  text-decoration: none;
+}
+
+main {
+  min-height: calc(100vh - 300px); /* フッターとの間隔を確保 */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.page {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  background-color: #ffc1c1;
+  padding: 40px 15px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}

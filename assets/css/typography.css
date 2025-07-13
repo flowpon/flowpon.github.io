@@ -1,0 +1,141 @@
+/* 文字・見出し・段落などの装飾 */
+
+.logo h1 {
+  font-size: 3rem;
+  white-space: nowrap;
+  color: white;
+  font-family: "Playwrite AU SA", serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.page h1 {
+  font-family: "Playwrite AU SA", serif;
+  font-size: 2rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.page h2 {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.8rem;
+  padding: 15px;
+}
+
+.page p {
+  font-family: "Zen Maru Gothic", sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.blog-post {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.blog-post h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.post-content {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.post-content a {
+  text-decoration: underline;
+  color: #d6336c;
+}
+
+.post-content strong {
+  font-weight: bold;
+}
+
+.post-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5em; /* 段落間の空白 */
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.share-buttons a {
+  display: inline-block;
+  text-align: right;
+  width: auto; /* 幅を広げすぎない */
+}
+
+.share-label {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 16px;
+}
+
+.share-buttons .share-icon img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.share-buttons .copy-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.back-line {
+  font-family: "Zen Maru Gothic", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-line a {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #d6336c;
+  text-decoration: none;
+  border: 2px solid #ffc1c1;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-line a:hover {
+  background-color: #ffe4ec;
+}
+
+#about img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(233, 90, 138, 0.15);
+}

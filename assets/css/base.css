@@ -1,0 +1,22 @@
+/* 全体の初期設定や共通スタイル */
+
+html {
+  min-width: 320px; /* 最小幅を設定 */
+}
+
+body {
+  background-color: #ffe5e5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.notranslate {
+  translate: no;
+}
+
+hr {
+  display: none;
+}
