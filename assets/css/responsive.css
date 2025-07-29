@@ -37,6 +37,12 @@
   }
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 @media screen and (max-width: 600px) {
   .header_container {
     padding: 20px 10px;
@@ -101,6 +107,12 @@
   }
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 @media screen and (max-width: 400px) {
   .logo h1 {
     font-size: 1.5rem;
@@ -134,6 +146,12 @@
   .gtranslate_wrapper {
     margin: 10px 10px; /* さらに左右余白を狭く */
   }
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
 }
 
 /* アニメーション */
