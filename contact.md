@@ -49,5 +49,19 @@ permalink: /contact
         />
       </a>
     </div>
+    <div class="sns-item">
+      <p>Study Notes</p>
+      <a
+        href="https://flowpon.github.io/notes-site/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="学習ノートページ"
+        class="share-icon">
+        <img
+          src="{{ '/assets/images/icons/note.png' | relative_url }}"
+          alt="学習ノートサイトへのリンク"
+        />
+      </a>
+    </div>
   </div>
 </div>
