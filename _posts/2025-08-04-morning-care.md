@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "夏の朝、のんびり自分ケア"
+title: "のんびり自分ケア"
 date: 2025-08-03
 image: https://i.postimg.cc/gjN4RW4c/S-135208963.jpg
 ---
