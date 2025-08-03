@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 気まぐれでも、一歩ずつ
+title: "気まぐれでも、一歩ずつ"
 date: 2025-08-04
 image: https://i.postimg.cc/gjN4RW4c/S-135208963.jpg
 ---
