@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "地元に帰ってきた"
 date: 2025-08-20
 image: https://i.postimg.cc/6pLG8RyY/S-136495106.jpg
