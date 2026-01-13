@@ -114,6 +114,10 @@ iframe {
 }
 
 @media screen and (max-width: 400px) {
+  #home {
+    padding: 0 10px;
+  }
+
   .logo h1 {
     font-size: 1.5rem;
   }
