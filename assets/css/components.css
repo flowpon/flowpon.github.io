@@ -160,8 +160,8 @@ iframe {
 }
 /* ヘッダータイトルをリンクにしても見た目を変えない */
 .logo h1 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .logo h1 a:hover {
